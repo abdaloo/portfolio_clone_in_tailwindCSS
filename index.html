@@ -6,57 +6,69 @@
     <title>Portfolio Home Page</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="bg-[#161513] text-white font-[poppins] m-0 p-0 box-border">
     <!-- Navbar -->
-    <nav>
-        <div class="">
-            LOGO
-        </div>
-        <div>
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Experience</a>
-            <a href="#">Contact</a>
+    <nav class="bg-[#1E1E1D]">
+        <div class="max-w-6xl mx-auto px-[30px]">
+            <div>
+                <img src="/images/logo-img/logo.png" alt="Logo">
+            </div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">Experience</a>
+                <a href="#">Contact</a>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
      <header>
-        <div>
-            <img src="" alt="">
-        </div>
-        <div>
-            <h1>I do code and make content about it!</h1>
-        </div>
-        <div>
-            I am a seasoned full-stack software engineer with over 
-            8 years of professional experience, specializing in backend development. 
-            My expertise lies in crafting robust and scalable SaaS-based 
-            architectures on the Amazon AWS platform.
-        </div>
-        <div>
-            <button>Get in Touch</button>
-            <button>Download CV</button>
+        <div class="max-w-6xl mx-auto px-[30px]">
+            <div>
+                <img src="images/profile-img/Avatar.png" alt="My image">
+            </div>
+            <div>
+                <h1>I do code and make content about it!</h1>
+            </div>
+            <div>
+                I am a seasoned full-stack software engineer with over 
+                8 years of professional experience, specializing in backend development. 
+                My expertise lies in crafting robust and scalable SaaS-based 
+                architectures on the Amazon AWS platform.
+            </div>
+            <div>
+                <button>Get in Touch</button>
+                <button>Download CV</button>
+            </div>
         </div>
      </header>
 
      <!-- Experience Section -->
       <section>
-        <span>Experience with</span>
-        <div>
-            <!-- Add Five Images -->
+        <div class="max-w-6xl mx-auto px-[30px]">
+            <span>Experience with</span>
+            <div>
+                <span><img src="images/tools-img/javascript.png" alt="js logo"></span>
+                <span><img src="images/tools-img/nodejs.png" alt="Node js"></span>
+                <span><img src="images/tools-img/html.png" alt="html"></span>
+                <span><img src="images/tools-img/css.png" alt="css"></span>
+                <span><img src="images/tools-img/reactjs.png" alt="react js"></span>
+            </div>
         </div>
       </section>
 
       <!-- Projects Section -->
        <section>
-        <span>Projects</span>
-        <div>
-            <!-- HTML -->
+        <div class="max-w-6xl mx-auto px-[30px]">
+
+            <span>Projects</span>
             <div>
+                <!-- HTML -->
                 <div>
                     <div>
-                        <img src="" alt="">
+                    <div>
+                        <img src="images/projects-img/project-thumbnail-1.png" alt="Project1 image">
                     </div>
                     <div>
                         <div>
@@ -65,7 +77,10 @@
                                 <h3>HTML Tutorial</h3>
                             </div>
                             <div>
-                                <!-- Add SVG icons here.. -->
+                                <!-- SVG Arrow icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>                                  
                             </div>
                         </div>
                     </div>
@@ -75,7 +90,7 @@
             <div>
                 <div>
                     <div>
-                        <img src="" alt="">
+                        <img src="images/projects-img/project-thumbnail-2.png" alt="Project2 image">
                     </div>
                     <div>
                         <div>
@@ -84,31 +99,37 @@
                                 <h3>CSS Tutorial</h3>
                             </div>
                             <div>
-                                <!-- Add SVG icon here.. -->
+                                <!-- SVG Arrow icon-->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                  </svg> 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        </section>
     
     <!-- Experience Section -->
     <section>
-        <div>
-            <span>Experience</span>
-        </div>
-        <!-- 1st role -->
-        <div>
+        <div class="max-w-6xl mx-auto px-[30px]">
+
+            <div>
+                <span>Experience</span>
+            </div>
+            <!-- 1st role -->
             <div>
                 <div>
                     <div>
                         <div>
                             <div>
-                                <img src="" alt="">
-                            </div>
-                            <div>
-                                Lead Software Engineer at Google
+                                <div>
+                                    <img src="images/company-img/google-logo.png" alt="Google logo">
+                                </div>
+                                <div>
+                                    Lead Software Engineer at Google
                             </div>
                         </div>
                         <div>
@@ -128,7 +149,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="" alt="">
+                                <img src="images/company-img/apple-logo.png" alt="Apple Logo">
                             </div>
                             <div>
                                 Junior Software Engineer at Apple
@@ -151,7 +172,7 @@
                     <div>
                         <div>
                             <div>
-                                <img src="" alt="">
+                                <img src="images/company-img/meta-logo.png" alt="Meta Logo">
                             </div>
                             <div>
                                 Software Engineer at Meta
@@ -167,23 +188,33 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- Footer Section -->
-     <footer>
-        <div>Contact</div>
-        <div>Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing
-            and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
-            comprehensive skill set encompassing front-end and back-end technologies </div>
-            <div>
-                <div>icon</div> 
+     <footer class="bg-[#1E1E1D]">
+        <div class="max-w-6xl mx-auto px-[30px]">
+
+            <div>Contact</div>
+            <div>Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing
+                and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
+                comprehensive skill set encompassing front-end and back-end technologies </div>
+                <div>
+                <div>
+                    <!-- Envelop icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                    </svg>
+                    
+                </div> 
                 <div>abmcodehub@gmail.com</div>
             </div>
             <div>
-                <div>Instagram icon</div>
-                <div>X icon</div>
-                <div>You tube Icon</div>
+                <div><img src="images/footer-img/instagram.png" alt="instagram img"></div>
+                <div><img src="images/footer-img/x.png" alt="x img"></div>
+                <div><img src="images/footer-img/youtube.png" alt="youtube img"></div>
             </div>
+        </div>
 
      </footer>
             
