@@ -8,28 +8,29 @@
   </head>
   <body class="bg-[#161513] text-white font-[poppins] m-0 p-0 box-border">
     <!-- Navbar -->
-    <nav class="bg-[#1E1E1D]">
-        <div class="max-w-6xl mx-auto px-[30px]">
-            <div>
-                <img src="/images/logo-img/logo.png" alt="Logo">
+    <nav class="bg-[#1E1E1D] sticky top-0 ">
+        <div class="max-w-6xl mx-auto px-[30px] flex justify-between items-center">
+            <div class="cursor-pointer">
+                <img src="/images/logo-img/logo.png" alt="Logo" >
             </div>
             <div>
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Experience</a>
-                <a href="#">Contact</a>
+                <a href="#" class="px-10 hover:text-fuchsia-500">Home</a>
+                <a href="#experience" class="px-10 hover:text-fuchsia-500">Experience</a>
+                <a href="#projects" class="px-10 hover:text-fuchsia-500">Projects</a>
+                <a href="#contact" class="px-10 hover:text-fuchsia-500">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-     <header>
-        <div class="max-w-6xl mx-auto px-[30px]">
-            <div>
-                <img src="images/profile-img/Avatar.png" alt="My image">
+     <header class="mt-20">
+        <div class="max-w-6xl mx-auto px-[30px] flex items-center justify-center flex-col">
+            <div class="bg-linear-65 from-purple-500 to-pink-500 rounded-[50%]">
+                <img src="images/profile-img/me.png" class="rounded-[50%]" alt="My image">
             </div>
-            <div>
-                <h1>I do code and make content about it!</h1>
+            <div class="flex flex-col justify-center items-center mt-10 text-4xl font-black">
+                <span>I do code and </span>
+                <span>make content <strong class="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block text-transparent bg-clip-text">about it!</strong></span>
             </div>
             <div>
                 I am a seasoned full-stack software engineer with over 
@@ -59,7 +60,7 @@
       </section>
 
       <!-- Projects Section -->
-       <section>
+       <section id="projects">
         <div class="max-w-6xl mx-auto px-[30px]">
 
             <span>Projects</span>
@@ -113,7 +114,7 @@
         </section>
     
     <!-- Experience Section -->
-    <section>
+    <section id="experience">
         <div class="max-w-6xl mx-auto px-[30px]">
 
             <div>
@@ -192,7 +193,7 @@
     </section>
 
     <!-- Footer Section -->
-     <footer class="bg-[#1E1E1D]">
+     <footer class="bg-[#1E1E1D]" id="contact">
         <div class="max-w-6xl mx-auto px-[30px]">
 
             <div>Contact</div>
