@@ -8,10 +8,11 @@
   </head>
   <body class="bg-[#161513] text-white font-[poppins] m-0 p-0 box-border">
     <!-- Navbar -->
-    <nav class="bg-[#1E1E1D] sticky top-0 ">
-        <div class="max-w-6xl mx-auto px-[30px] flex justify-between items-center">
+    <nav class="bg-[#1E1E1D]">
+        <div class="max-w-6xl mx-auto px-[30px] flex justify-between items-center h-15">
             <div class="cursor-pointer">
-                <img src="/images/logo-img/logo.png" alt="Logo" >
+                <!-- <img src="/images/logo-img/logo.png" alt="Logo" > -->
+                 <span class="uppercase text-3xl text-pink-400 font-black ">ABDAL.</span>
             </div>
             <div>
                 <a href="#" class="px-10 hover:text-fuchsia-500">Home</a>
@@ -23,7 +24,7 @@
     </nav>
 
     <!-- Hero Section -->
-     <header class="mt-20">
+     <header class="mt-10">
         <div class="max-w-6xl mx-auto px-[30px] flex items-center justify-center flex-col">
             <div class="bg-linear-65 from-purple-500 to-pink-500 rounded-[50%]">
                 <img src="images/profile-img/me.png" class="rounded-[50%]" alt="My image">
@@ -39,88 +40,88 @@
                 architectures on the Amazon AWS platform.
             </div>
             <div class="mt-5">
-                <button class="text-white bg-yellow-400 hover:bg-yellow-400 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-md px-5 py-2.5 text-center me-2 mb-2 dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">Get in Touch</button>
-                <button class="py-2.5 px-5 me-2 mb-2 text-md font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Download CV</button>
+                <button class="text-white hover:text-pink-400 bg-violet-400 hover:bg-violet-400 focus:outline-none focus:ring-4 focus:ring-violet-300 font-medium rounded-full text-md px-5 py-2.5 text-center me-2 mb-2 dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800">Get in Touch</button>
+                <button class="py-2.5 px-5 me-2 mb-2 text-md hover:font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-purple:800 dark:hover:bg-gray-700">Download CV</button>
             </div>
         </div>
      </header>
 
-     <!-- Experience Section -->
-      <section>
-        <div class="max-w-6xl mx-auto px-[30px]">
-            <span>Experience with</span>
-            <div>
-                <span><img src="images/tools-img/javascript.png" alt="js logo"></span>
-                <span><img src="images/tools-img/nodejs.png" alt="Node js"></span>
-                <span><img src="images/tools-img/html.png" alt="html"></span>
-                <span><img src="images/tools-img/css.png" alt="css"></span>
-                <span><img src="images/tools-img/reactjs.png" alt="react js"></span>
+     <!-- Tools Experience Section -->
+      <section class="mt-20">
+        <div class="max-w-6xl mx-auto px-[30px] flex justify-center items-center flex-col">
+            <span class="text-2xl uppercase text-red-400 font-black">Experience with</span>
+            <div class="flex justify-center items-center gap-20 mt-10">
+                <span class="w-10"><img src="images/tools-img/javascript.png" alt="js logo"></span>
+                <span class="w-10"><img src="images/tools-img/nodejs.png" alt="Node js"></span>
+                <span class="w-10"><img src="images/tools-img/html.png" alt="html"></span>
+                <span class="w-10"><img src="images/tools-img/css.png" alt="css"></span>
+                <span class="w-10"><img src="images/tools-img/reactjs.png" alt="react js"></span>
             </div>
         </div>
       </section>
 
       <!-- Projects Section -->
-       <section id="projects">
-        <div class="max-w-6xl mx-auto px-[30px]">
+       <section id="projects" class="mt-20">
+        <div class="max-w-6xl mx-auto px-[30px] flex justify-center items-center flex-col">
 
-            <span>Projects</span>
-            <div>
+            <span class="uppercase text-5xl text-[#f1742a] font-black ">Projects</span>
+            <div class="flex gap-20 mt-5">
                 <!-- HTML -->
-                <div>
-                    <div>
-                    <div>
-                        <img src="images/projects-img/project-thumbnail-1.png" alt="Project1 image">
-                    </div>
+                <div class="w-90 bg-[#1E1E1D] rounded-xl"><!--Whole HTMl Div-->
                     <div>
                         <div>
+                            <img src="images/projects-img/project-thumbnail-1.png" alt="Project1 image">
+                        </div>
+                        <div class="flex justify-between px-5 items-center my-3">
                             <div>
-                                <p>Click here to visit</p>
-                                <h3>HTML Tutorial</h3>
+                                <p class="uppercase text-xs font-thin tracking-wider">Click here to visit</p>
+                                <h3 class="uppercase text-lg font-bold tracking-wider">HTML Tutorial</h3>
                             </div>
                             <div>
                                 <!-- SVG Arrow icon-->
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                </svg>                                  
+                                <button class="cursor-pointer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg> 
+                                </button>                                 
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <!-- CSS -->
-            <div>
-                <div>
-                    <div>
-                        <img src="images/projects-img/project-thumbnail-2.png" alt="Project2 image">
-                    </div>
+                <div class="w-90 bg-[#1E1E1D] rounded-xl"><!--Whole css Div-->
                     <div>
                         <div>
+                            <img src="images/projects-img/project-thumbnail-2.png" alt="Project2 image">
+                        </div>
+                        <div class="flex justify-between px-5 items-center my-3">
                             <div>
-                                <p>Click here to visit</p>
-                                <h3>CSS Tutorial</h3>
+                                <p class="uppercase text-xs font-thin tracking-wider">Click here to visit</p>
+                                <h3 class="uppercase text-lg font-bold tracking-wider">CSS Tutorial</h3>
                             </div>
                             <div>
                                 <!-- SVG Arrow icon-->
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                  </svg> 
-                                </div>
+                                <button class="cursor-pointer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg> 
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </section>
+    </section>
     
     <!-- Experience Section -->
-    <section id="experience">
-        <div class="max-w-6xl mx-auto px-[30px]">
+    <!--<section id="experience" class="mt-20">
+        <div class="max-w-6xl mx-auto px-[30px] flex justify-center items-center flex-col">
 
             <div>
                 <span>Experience</span>
             </div>
-            <!-- 1st role -->
+
             <div>
                 <div>
                     <div>
@@ -143,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <!-- 2nd role -->
+         
         <div>
             <div>
                 <div>
@@ -166,7 +167,7 @@
                 </div>
             </div>
         </div>
-        <!-- 3rd role -->
+
         <div>
             <div>
                 <div>
@@ -190,30 +191,29 @@
             </div>
         </div>
     </div>
-    </section>
+    </section> -->
 
     <!-- Footer Section -->
-     <footer class="bg-[#1E1E1D]" id="contact">
-        <div class="max-w-6xl mx-auto px-[30px]">
+     <footer class="bg-[#1E1E1D] mt-20" id="contact">
+        <div class="max-w-6xl mx-auto px-[60px] p-20">
 
-            <div>Contact</div>
-            <div>Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing
+            <div class="uppercase text-lg font-bold tracking-wider">Contact</div>
+            <div class="text-sm font-thin tracking-wider mt-5">Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing
                 and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
                 comprehensive skill set encompassing front-end and back-end technologies </div>
-                <div>
-                <div>
-                    <!-- Envelop icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-                    </svg>
-                    
-                </div> 
-                <div>abmcodehub@gmail.com</div>
-            </div>
-            <div>
-                <div><img src="images/footer-img/instagram.png" alt="instagram img"></div>
-                <div><img src="images/footer-img/x.png" alt="x img"></div>
-                <div><img src="images/footer-img/youtube.png" alt="youtube img"></div>
+                <div class="mt-5 flex gap-5">
+                    <div class="">
+                        <!-- Envelop icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                        </svg>  
+                    </div> 
+                    <div>abdalhussain5790@gmail.com</div>
+                </div>
+            <div class="mt-5 flex gap-5">
+                <div class=""><img class="w-5 cursor-pointer" src="images/footer-img/instagram.png" alt="instagram img"></div>
+                <div class=""><img class="w-5 cursor-pointer" src="images/footer-img/x.png" alt="x img"></div>
+                <div class=""><img class="w-5 cursor-pointer" src="images/footer-img/youtube.png" alt="youtube img"></div>
             </div>
         </div>
 
